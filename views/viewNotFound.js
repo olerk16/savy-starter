@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>View not found - 404</title>
-</head>
-<body>
-  <div id="oops404">
+import html from "html-literal";
+
+export default () => html`
+<div id="oops404">
     <img src="assets/img/oops-404.jpg" alt="View not found!">
     <div class="attribution">
       <a
@@ -15,7 +9,4 @@
         target="_blank"
       >Image by storyset</a> on Freepik
     </div>
-  </div>
-</body>
-</html>
-
+  </div>`
